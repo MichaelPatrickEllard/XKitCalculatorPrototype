@@ -680,6 +680,16 @@
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iAe-5h-Ukb">
+                                <rect key="frame" x="35" y="191" width="43" height="19"/>
+                                <buttonCell key="cell" type="roundRect" title="1" bezelStyle="roundedRect" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="feS-14-gVq">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="controlContent"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="numberPressed:" target="XfG-lQ-9wD" id="vOB-d2-0Ea"/>
+                                </connections>
+                            </button>
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pXG-AK-C5v">
                                 <rect key="frame" x="35" y="158" width="43" height="19"/>
                                 <buttonCell key="cell" type="roundRect" title="4" bezelStyle="roundedRect" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="xn0-3R-qr8">
@@ -770,14 +780,24 @@
                                     <action selector="numberPressed:" target="XfG-lQ-9wD" id="qTd-hB-XCm"/>
                                 </connections>
                             </button>
-                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iAe-5h-Ukb">
-                                <rect key="frame" x="35" y="191" width="43" height="19"/>
-                                <buttonCell key="cell" type="roundRect" title="1" bezelStyle="roundedRect" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="feS-14-gVq">
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wuk-rT-t2K">
+                                <rect key="frame" x="159" y="93" width="43" height="19"/>
+                                <buttonCell key="cell" type="roundRect" title="+/-" bezelStyle="roundedRect" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="MwJ-4y-tPk">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="controlContent"/>
                                 </buttonCell>
                                 <connections>
-                                    <action selector="numberPressed:" target="XfG-lQ-9wD" id="vOB-d2-0Ea"/>
+                                    <action selector="changeSign:" target="XfG-lQ-9wD" id="y9N-ek-gpj"/>
+                                </connections>
+                            </button>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="e7n-1U-Y2x">
+                                <rect key="frame" x="97" y="93" width="43" height="19"/>
+                                <buttonCell key="cell" type="roundRect" title="C" bezelStyle="roundedRect" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="R43-zM-T0J">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="controlContent"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="clearPressed:" target="XfG-lQ-9wD" id="gdX-8F-hmE"/>
                                 </connections>
                             </button>
                         </subviews>

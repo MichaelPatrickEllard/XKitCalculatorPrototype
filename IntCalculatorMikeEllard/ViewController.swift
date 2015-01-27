@@ -12,7 +12,21 @@ class ViewController: NSViewController {
 
     @IBOutlet weak var displayPanel: NSTextField!
  
+    @IBAction func clearPressed(sender: NSButton) {
+        
+        displayPanel.stringValue = ""
+    }
 
+    @IBAction func changeSign(sender: NSButton) {
+        
+        let possibleInt = displayPanel.stringValue.toInt()
+            
+        if let actualInt = possibleInt {
+            
+            displayPanel.stringValue = "\(-1 * actualInt)"
+        }
+    }
+    
     @IBAction func numberPressed(sender: NSButton) {
         
         displayPanel.stringValue = displayPanel.stringValue + sender.title
