@@ -684,7 +684,7 @@
                                 <rect key="frame" x="35" y="191" width="43" height="19"/>
                                 <buttonCell key="cell" type="roundRect" title="1" bezelStyle="roundedRect" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="feS-14-gVq">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="controlContent"/>
+                                    <font key="font" metaFont="cellTitle"/>
                                 </buttonCell>
                                 <connections>
                                     <action selector="numberPressed:" target="XfG-lQ-9wD" id="vOB-d2-0Ea"/>
@@ -694,7 +694,7 @@
                                 <rect key="frame" x="35" y="158" width="43" height="19"/>
                                 <buttonCell key="cell" type="roundRect" title="4" bezelStyle="roundedRect" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="xn0-3R-qr8">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="controlContent"/>
+                                    <font key="font" metaFont="cellTitle"/>
                                 </buttonCell>
                                 <connections>
                                     <action selector="numberPressed:" target="XfG-lQ-9wD" id="NkX-2h-bWY"/>
@@ -704,7 +704,7 @@
                                 <rect key="frame" x="35" y="125" width="43" height="19"/>
                                 <buttonCell key="cell" type="roundRect" title="7" bezelStyle="roundedRect" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="gzk-j8-z2Y">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="controlContent"/>
+                                    <font key="font" metaFont="cellTitle"/>
                                 </buttonCell>
                                 <connections>
                                     <action selector="numberPressed:" target="XfG-lQ-9wD" id="Fcb-7B-OuP"/>
@@ -714,7 +714,7 @@
                                 <rect key="frame" x="35" y="93" width="43" height="19"/>
                                 <buttonCell key="cell" type="roundRect" title="0" bezelStyle="roundedRect" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="UgJ-qk-yk6">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="controlContent"/>
+                                    <font key="font" metaFont="cellTitle"/>
                                 </buttonCell>
                                 <connections>
                                     <action selector="numberPressed:" target="XfG-lQ-9wD" id="Dkf-Dd-426"/>
@@ -724,7 +724,7 @@
                                 <rect key="frame" x="96" y="191" width="43" height="19"/>
                                 <buttonCell key="cell" type="roundRect" title="2" bezelStyle="roundedRect" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="GcI-Um-iiu">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="controlContent"/>
+                                    <font key="font" metaFont="cellTitle"/>
                                 </buttonCell>
                                 <connections>
                                     <action selector="numberPressed:" target="XfG-lQ-9wD" id="uNm-LH-fj0"/>
@@ -734,7 +734,7 @@
                                 <rect key="frame" x="96" y="158" width="43" height="19"/>
                                 <buttonCell key="cell" type="roundRect" title="5" bezelStyle="roundedRect" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="nFl-CZ-Drr">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="controlContent"/>
+                                    <font key="font" metaFont="cellTitle"/>
                                 </buttonCell>
                                 <connections>
                                     <action selector="numberPressed:" target="XfG-lQ-9wD" id="qJk-FV-D33"/>
@@ -744,7 +744,7 @@
                                 <rect key="frame" x="96" y="125" width="43" height="19"/>
                                 <buttonCell key="cell" type="roundRect" title="8" bezelStyle="roundedRect" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="43q-32-Nur">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="controlContent"/>
+                                    <font key="font" metaFont="cellTitle"/>
                                 </buttonCell>
                                 <connections>
                                     <action selector="numberPressed:" target="XfG-lQ-9wD" id="Xo9-Hd-3V5"/>
@@ -754,7 +754,7 @@
                                 <rect key="frame" x="159" y="191" width="43" height="19"/>
                                 <buttonCell key="cell" type="roundRect" title="3" bezelStyle="roundedRect" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="B4a-TE-bdI">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="controlContent"/>
+                                    <font key="font" metaFont="cellTitle"/>
                                 </buttonCell>
                                 <connections>
                                     <action selector="numberPressed:" target="XfG-lQ-9wD" id="GzZ-XC-c6G"/>
@@ -764,7 +764,7 @@
                                 <rect key="frame" x="159" y="158" width="43" height="19"/>
                                 <buttonCell key="cell" type="roundRect" title="6" bezelStyle="roundedRect" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Llb-Oe-WrH">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="controlContent"/>
+                                    <font key="font" metaFont="cellTitle"/>
                                 </buttonCell>
                                 <connections>
                                     <action selector="numberPressed:" target="XfG-lQ-9wD" id="F7b-A3-ieO"/>
@@ -774,7 +774,7 @@
                                 <rect key="frame" x="159" y="125" width="43" height="19"/>
                                 <buttonCell key="cell" type="roundRect" title="9" bezelStyle="roundedRect" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Ucz-2K-3IK">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="controlContent"/>
+                                    <font key="font" metaFont="cellTitle"/>
                                 </buttonCell>
                                 <connections>
                                     <action selector="numberPressed:" target="XfG-lQ-9wD" id="qTd-hB-XCm"/>
@@ -784,7 +784,7 @@
                                 <rect key="frame" x="159" y="93" width="43" height="19"/>
                                 <buttonCell key="cell" type="roundRect" title="+/-" bezelStyle="roundedRect" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="MwJ-4y-tPk">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="controlContent"/>
+                                    <font key="font" metaFont="cellTitle"/>
                                 </buttonCell>
                                 <connections>
                                     <action selector="changeSign:" target="XfG-lQ-9wD" id="y9N-ek-gpj"/>
@@ -794,10 +794,30 @@
                                 <rect key="frame" x="97" y="93" width="43" height="19"/>
                                 <buttonCell key="cell" type="roundRect" title="C" bezelStyle="roundedRect" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="R43-zM-T0J">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="controlContent"/>
+                                    <font key="font" metaFont="cellTitle"/>
                                 </buttonCell>
                                 <connections>
                                     <action selector="clearPressed:" target="XfG-lQ-9wD" id="gdX-8F-hmE"/>
+                                </connections>
+                            </button>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QC8-bd-lMU">
+                                <rect key="frame" x="227" y="232" width="43" height="19"/>
+                                <buttonCell key="cell" type="roundRect" title="=" bezelStyle="roundedRect" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Ufb-Gd-8yo">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="titleBar" size="12"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="equalsPressed:" target="XfG-lQ-9wD" id="7Mf-36-oyR"/>
+                                </connections>
+                            </button>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4CV-VZ-0Js">
+                                <rect key="frame" x="227" y="191" width="43" height="19"/>
+                                <buttonCell key="cell" type="roundRect" title="+" bezelStyle="roundedRect" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="dkY-Qm-b4r">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="titleBar" size="12"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="operationPressed:" target="XfG-lQ-9wD" id="t7d-yx-ZFd"/>
                                 </connections>
                             </button>
                         </subviews>

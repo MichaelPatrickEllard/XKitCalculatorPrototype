@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E36A29DC1A78113000B85188 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36A29DB1A78113000B85188 /* Model.swift */; };
 		E3AC173A1A76CB0B00023D91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AC17391A76CB0B00023D91 /* AppDelegate.swift */; };
 		E3AC173C1A76CB0B00023D91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AC173B1A76CB0B00023D91 /* ViewController.swift */; };
 		E3AC173E1A76CB0B00023D91 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3AC173D1A76CB0B00023D91 /* Images.xcassets */; };
@@ -25,6 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E36A29DB1A78113000B85188 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		E3AC17341A76CB0B00023D91 /* IntCalculatorMikeEllard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntCalculatorMikeEllard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3AC17381A76CB0B00023D91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E3AC17391A76CB0B00023D91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				E3AC173D1A76CB0B00023D91 /* Images.xcassets */,
 				E3AC173F1A76CB0B00023D91 /* Main.storyboard */,
 				E3AC17371A76CB0B00023D91 /* Supporting Files */,
+				E36A29DB1A78113000B85188 /* Model.swift */,
 			);
 			path = IntCalculatorMikeEllard;
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E36A29DC1A78113000B85188 /* Model.swift in Sources */,
 				E3AC173C1A76CB0B00023D91 /* ViewController.swift in Sources */,
 				E3AC173A1A76CB0B00023D91 /* AppDelegate.swift in Sources */,
 			);
@@ -396,6 +400,7 @@
 				E3AC17521A76CB0B00023D91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E3AC17531A76CB0B00023D91 /* Build configuration list for PBXNativeTarget "IntCalculatorMikeEllardTests" */ = {
 			isa = XCConfigurationList;
@@ -404,6 +409,7 @@
 				E3AC17551A76CB0B00023D91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -9,6 +9,8 @@
 import Cocoa
 
 class ViewController: NSViewController {
+    
+    var storedRegister: Int?
 
     @IBOutlet weak var displayPanel: NSTextField!
  
@@ -24,6 +26,25 @@ class ViewController: NSViewController {
         if let actualInt = possibleInt {
             
             displayPanel.stringValue = "\(-1 * actualInt)"
+        }
+    }
+    
+    @IBAction func operationPressed (sender: AnyObject) {
+        
+        storedRegister = displayPanel.stringValue.toInt()
+        
+        displayPanel.stringValue = ""
+    }
+    
+    @IBAction func equalsPressed(sender: NSButton) {
+        
+        let displayRegister: Int? = displayPanel.stringValue.toInt()
+        
+        if (storedRegister != nil && displayRegister != nil) {
+                
+            let result = add(storedRegister!, displayRegister!)
+            
+            displayPanel.stringValue = result
         }
     }
     
