@@ -10,6 +10,7 @@ import Cocoa
 
 class ViewController: NSViewController {
     
+    var operation: String?
     var storedRegister: Int?
 
     @IBOutlet weak var displayPanel: NSTextField!
@@ -29,7 +30,9 @@ class ViewController: NSViewController {
         }
     }
     
-    @IBAction func operationPressed (sender: AnyObject) {
+    @IBAction func operationPressed (sender: NSButton) {
+        
+        operation = sender.title
         
         storedRegister = displayPanel.stringValue.toInt()
         
@@ -41,8 +44,24 @@ class ViewController: NSViewController {
         let displayRegister: Int? = displayPanel.stringValue.toInt()
         
         if (storedRegister != nil && displayRegister != nil) {
+            
+            var result: String
+            
+            switch operation! {
                 
-            let result = add(storedRegister!, displayRegister!)
+                case "+":
+                    result = add(storedRegister!, displayRegister!)
+                case "-":
+                    result = subtract(storedRegister!, displayRegister!)
+                case "*":
+                    result = multiply(storedRegister!, displayRegister!)
+                case "/":
+                    result = divide(storedRegister!, displayRegister!)
+                case "%":
+                    result = remainder(storedRegister!, displayRegister!)
+                default:
+                    result = "I don't recognize '\(operation)'"
+            }
             
             displayPanel.stringValue = result
         }

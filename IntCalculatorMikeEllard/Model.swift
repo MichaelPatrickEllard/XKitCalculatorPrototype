@@ -13,3 +13,24 @@ func add(augend: Int, addend: Int) -> String {
     return "\(augend + addend)"
 }
 
+func subtract(minuend: Int, subtrahend: Int) -> String {
+    
+    return "\(minuend - subtrahend)"
+}
+
+func multiply(multiplicand: Int, multiplier: Int) -> String {
+    
+    return "\(multiplicand * multiplier)"
+}
+
+func divide(dividend: Int, divisor: Int) -> String {
+    
+    return "\(dividend / divisor)"
+}
+
+func remainder(dividend: Int, divisor: Int) -> String {
+    
+    return "\(dividend % divisor)"
+}
+
+

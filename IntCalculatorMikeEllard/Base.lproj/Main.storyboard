@@ -820,6 +820,46 @@
                                     <action selector="operationPressed:" target="XfG-lQ-9wD" id="t7d-yx-ZFd"/>
                                 </connections>
                             </button>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Li5-Vr-IYw">
+                                <rect key="frame" x="227" y="158" width="43" height="19"/>
+                                <buttonCell key="cell" type="roundRect" title="-" bezelStyle="roundedRect" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Bxn-Oc-gX1">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="titleBar" size="12"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="operationPressed:" target="XfG-lQ-9wD" id="M5V-aC-egD"/>
+                                </connections>
+                            </button>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aLG-29-ScO">
+                                <rect key="frame" x="227" y="125" width="43" height="19"/>
+                                <buttonCell key="cell" type="roundRect" title="*" bezelStyle="roundedRect" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="rRv-oa-yjP">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="titleBar" size="12"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="operationPressed:" target="XfG-lQ-9wD" id="QRV-Qg-yvG"/>
+                                </connections>
+                            </button>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9kE-S2-0cI">
+                                <rect key="frame" x="227" y="93" width="43" height="19"/>
+                                <buttonCell key="cell" type="roundRect" title="/" bezelStyle="roundedRect" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Itg-In-IiA">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="titleBar" size="12"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="operationPressed:" target="XfG-lQ-9wD" id="Wfj-6s-PGB"/>
+                                </connections>
+                            </button>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="m5V-G5-oOp">
+                                <rect key="frame" x="286" y="191" width="43" height="19"/>
+                                <buttonCell key="cell" type="roundRect" title="%" bezelStyle="roundedRect" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="T87-b8-ZuB">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="titleBar" size="12"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="operationPressed:" target="XfG-lQ-9wD" id="txH-Ic-ZOk"/>
+                                </connections>
+                            </button>
                         </subviews>
                     </view>
                     <connections>
