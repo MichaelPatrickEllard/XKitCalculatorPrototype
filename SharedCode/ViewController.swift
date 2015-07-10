@@ -12,35 +12,35 @@ class ViewController: XViewController {
     var operation: String?
     var storedRegister: Int?
 
-    @IBOutlet weak var displayPanel: NSTextField!
+    @IBOutlet weak var displayPanel: XLabel!
  
     @IBAction func clearPressed(sender: XButton) {
         
-        displayPanel.stringValue = ""
+        displayPanel.labelText = ""
     }
 
     @IBAction func changeSign(sender: XButton) {
         
-        let possibleInt = displayPanel.stringValue.toInt()
+        let possibleInt = displayPanel.labelText.toInt()
             
         if let actualInt = possibleInt {
             
-            displayPanel.stringValue = "\(-1 * actualInt)"
+            displayPanel.labelText = "\(-1 * actualInt)"
         }
     }
     
     @IBAction func operationPressed (sender: XButton) {
         
-        operation = sender.title
+        operation = sender.buttonTitle
         
-        storedRegister = displayPanel.stringValue.toInt()
+        storedRegister = displayPanel.labelText.toInt()
         
-        displayPanel.stringValue = ""
+        displayPanel.labelText = ""
     }
     
     @IBAction func equalsPressed(sender: XButton) {
         
-        let displayRegister: Int? = displayPanel.stringValue.toInt()
+        let displayRegister: Int? = displayPanel.labelText.toInt()
         
         if (storedRegister != nil && displayRegister != nil) {
             
@@ -62,13 +62,13 @@ class ViewController: XViewController {
                     result = "I don't recognize '\(operation)'"
             }
             
-            displayPanel.stringValue = result
+            displayPanel.labelText = result
         }
     }
     
     @IBAction func numberPressed(sender: XButton) {
         
-        displayPanel.stringValue = displayPanel.stringValue + sender.title
+        displayPanel.labelText = displayPanel.labelText + sender.buttonTitle
     }
 }
 
