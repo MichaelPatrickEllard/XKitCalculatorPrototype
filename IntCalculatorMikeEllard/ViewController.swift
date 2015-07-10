@@ -6,21 +6,20 @@
 //
 //
 
-import Cocoa
 
-class ViewController: NSViewController {
+class ViewController: XViewController {
     
     var operation: String?
     var storedRegister: Int?
 
     @IBOutlet weak var displayPanel: NSTextField!
  
-    @IBAction func clearPressed(sender: NSButton) {
+    @IBAction func clearPressed(sender: XButton) {
         
         displayPanel.stringValue = ""
     }
 
-    @IBAction func changeSign(sender: NSButton) {
+    @IBAction func changeSign(sender: XButton) {
         
         let possibleInt = displayPanel.stringValue.toInt()
             
@@ -30,7 +29,7 @@ class ViewController: NSViewController {
         }
     }
     
-    @IBAction func operationPressed (sender: NSButton) {
+    @IBAction func operationPressed (sender: XButton) {
         
         operation = sender.title
         
@@ -39,7 +38,7 @@ class ViewController: NSViewController {
         displayPanel.stringValue = ""
     }
     
-    @IBAction func equalsPressed(sender: NSButton) {
+    @IBAction func equalsPressed(sender: XButton) {
         
         let displayRegister: Int? = displayPanel.stringValue.toInt()
         
@@ -67,7 +66,7 @@ class ViewController: NSViewController {
         }
     }
     
-    @IBAction func numberPressed(sender: NSButton) {
+    @IBAction func numberPressed(sender: XButton) {
         
         displayPanel.stringValue = displayPanel.stringValue + sender.title
     }

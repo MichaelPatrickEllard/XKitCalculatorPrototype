@@ -7,46 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E32B28151B4F7170006BA87A /* XKit-OSX.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32B28141B4F7170006BA87A /* XKit-OSX.swift */; };
+		E32B28171B4F73D4006BA87A /* XKit-iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32B28161B4F73D4006BA87A /* XKit-iOS.swift */; };
 		E36A29DC1A78113000B85188 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36A29DB1A78113000B85188 /* Model.swift */; };
+		E391DA021B01B1C5007762BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E391DA011B01B1C5007762BF /* AppDelegate.swift */; };
+		E391DA041B01B1C5007762BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E391DA031B01B1C5007762BF /* ViewController.swift */; };
+		E391DA071B01B1C5007762BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E391DA051B01B1C5007762BF /* Main.storyboard */; };
+		E391DA091B01B1C5007762BF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E391DA081B01B1C5007762BF /* Images.xcassets */; };
+		E391DA0C1B01B1C5007762BF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E391DA0A1B01B1C5007762BF /* LaunchScreen.xib */; };
+		E391DA201B01B2B9007762BF /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36A29DB1A78113000B85188 /* Model.swift */; };
 		E3AC173A1A76CB0B00023D91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AC17391A76CB0B00023D91 /* AppDelegate.swift */; };
 		E3AC173C1A76CB0B00023D91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AC173B1A76CB0B00023D91 /* ViewController.swift */; };
 		E3AC173E1A76CB0B00023D91 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3AC173D1A76CB0B00023D91 /* Images.xcassets */; };
 		E3AC17411A76CB0B00023D91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3AC173F1A76CB0B00023D91 /* Main.storyboard */; };
-		E3AC174D1A76CB0B00023D91 /* IntCalculatorMikeEllardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AC174C1A76CB0B00023D91 /* IntCalculatorMikeEllardTests.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		E3AC17471A76CB0B00023D91 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E3AC172C1A76CB0B00023D91 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E3AC17331A76CB0B00023D91;
-			remoteInfo = IntCalculatorMikeEllard;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		E36A29DB1A78113000B85188 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		E32B28141B4F7170006BA87A /* XKit-OSX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XKit-OSX.swift"; sourceTree = "<group>"; };
+		E32B28161B4F73D4006BA87A /* XKit-iOS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XKit-iOS.swift"; sourceTree = "<group>"; };
+		E36A29DB1A78113000B85188 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Model.swift; path = IntCalculatorMikeEllard/Model.swift; sourceTree = "<group>"; };
+		E391D9FD1B01B1C5007762BF /* ICiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ICiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E391DA001B01B1C5007762BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E391DA011B01B1C5007762BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E391DA031B01B1C5007762BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E391DA061B01B1C5007762BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E391DA081B01B1C5007762BF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E391DA0B1B01B1C5007762BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		E3AC17341A76CB0B00023D91 /* IntCalculatorMikeEllard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntCalculatorMikeEllard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3AC17381A76CB0B00023D91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E3AC17391A76CB0B00023D91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3AC173B1A76CB0B00023D91 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E3AC173D1A76CB0B00023D91 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E3AC17401A76CB0B00023D91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E3AC17461A76CB0B00023D91 /* IntCalculatorMikeEllardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntCalculatorMikeEllardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E3AC174B1A76CB0B00023D91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E3AC174C1A76CB0B00023D91 /* IntCalculatorMikeEllardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntCalculatorMikeEllardTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E3AC17311A76CB0B00023D91 /* Frameworks */ = {
+		E391D9FA1B01B1C5007762BF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E3AC17431A76CB0B00023D91 /* Frameworks */ = {
+		E3AC17311A76CB0B00023D91 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -56,11 +59,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E32B28181B4F75EA006BA87A /* iOS-OSX Shared Code */ = {
+			isa = PBXGroup;
+			children = (
+				E36A29DB1A78113000B85188 /* Model.swift */,
+			);
+			name = "iOS-OSX Shared Code";
+			sourceTree = "<group>";
+		};
+		E391D9FE1B01B1C5007762BF /* iOSCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				E391DA011B01B1C5007762BF /* AppDelegate.swift */,
+				E391DA031B01B1C5007762BF /* ViewController.swift */,
+				E32B28161B4F73D4006BA87A /* XKit-iOS.swift */,
+				E391DA051B01B1C5007762BF /* Main.storyboard */,
+				E391DA081B01B1C5007762BF /* Images.xcassets */,
+				E391DA0A1B01B1C5007762BF /* LaunchScreen.xib */,
+				E391D9FF1B01B1C5007762BF /* Supporting Files */,
+			);
+			name = iOSCalculator;
+			path = ICiOS;
+			sourceTree = "<group>";
+		};
+		E391D9FF1B01B1C5007762BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E391DA001B01B1C5007762BF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		E3AC172B1A76CB0B00023D91 = {
 			isa = PBXGroup;
 			children = (
-				E3AC17361A76CB0B00023D91 /* IntCalculatorMikeEllard */,
-				E3AC17491A76CB0B00023D91 /* IntCalculatorMikeEllardTests */,
+				E32B28181B4F75EA006BA87A /* iOS-OSX Shared Code */,
+				E3AC17361A76CB0B00023D91 /* OSXCalculator */,
+				E391D9FE1B01B1C5007762BF /* iOSCalculator */,
 				E3AC17351A76CB0B00023D91 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,21 +104,22 @@
 			isa = PBXGroup;
 			children = (
 				E3AC17341A76CB0B00023D91 /* IntCalculatorMikeEllard.app */,
-				E3AC17461A76CB0B00023D91 /* IntCalculatorMikeEllardTests.xctest */,
+				E391D9FD1B01B1C5007762BF /* ICiOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E3AC17361A76CB0B00023D91 /* IntCalculatorMikeEllard */ = {
+		E3AC17361A76CB0B00023D91 /* OSXCalculator */ = {
 			isa = PBXGroup;
 			children = (
-				E3AC17391A76CB0B00023D91 /* AppDelegate.swift */,
 				E3AC173B1A76CB0B00023D91 /* ViewController.swift */,
+				E32B28141B4F7170006BA87A /* XKit-OSX.swift */,
+				E3AC17391A76CB0B00023D91 /* AppDelegate.swift */,
 				E3AC173D1A76CB0B00023D91 /* Images.xcassets */,
 				E3AC173F1A76CB0B00023D91 /* Main.storyboard */,
 				E3AC17371A76CB0B00023D91 /* Supporting Files */,
-				E36A29DB1A78113000B85188 /* Model.swift */,
 			);
+			name = OSXCalculator;
 			path = IntCalculatorMikeEllard;
 			sourceTree = "<group>";
 		};
@@ -95,26 +131,26 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		E3AC17491A76CB0B00023D91 /* IntCalculatorMikeEllardTests */ = {
-			isa = PBXGroup;
-			children = (
-				E3AC174C1A76CB0B00023D91 /* IntCalculatorMikeEllardTests.swift */,
-				E3AC174A1A76CB0B00023D91 /* Supporting Files */,
-			);
-			path = IntCalculatorMikeEllardTests;
-			sourceTree = "<group>";
-		};
-		E3AC174A1A76CB0B00023D91 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				E3AC174B1A76CB0B00023D91 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		E391D9FC1B01B1C5007762BF /* ICiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E391DA1D1B01B1C5007762BF /* Build configuration list for PBXNativeTarget "ICiOS" */;
+			buildPhases = (
+				E391D9F91B01B1C5007762BF /* Sources */,
+				E391D9FA1B01B1C5007762BF /* Frameworks */,
+				E391D9FB1B01B1C5007762BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ICiOS;
+			productName = ICiOS;
+			productReference = E391D9FD1B01B1C5007762BF /* ICiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
 		E3AC17331A76CB0B00023D91 /* IntCalculatorMikeEllard */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E3AC17501A76CB0B00023D91 /* Build configuration list for PBXNativeTarget "IntCalculatorMikeEllard" */;
@@ -132,38 +168,20 @@
 			productReference = E3AC17341A76CB0B00023D91 /* IntCalculatorMikeEllard.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E3AC17451A76CB0B00023D91 /* IntCalculatorMikeEllardTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E3AC17531A76CB0B00023D91 /* Build configuration list for PBXNativeTarget "IntCalculatorMikeEllardTests" */;
-			buildPhases = (
-				E3AC17421A76CB0B00023D91 /* Sources */,
-				E3AC17431A76CB0B00023D91 /* Frameworks */,
-				E3AC17441A76CB0B00023D91 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E3AC17481A76CB0B00023D91 /* PBXTargetDependency */,
-			);
-			name = IntCalculatorMikeEllardTests;
-			productName = IntCalculatorMikeEllardTests;
-			productReference = E3AC17461A76CB0B00023D91 /* IntCalculatorMikeEllardTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		E3AC172C1A76CB0B00023D91 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0610;
 				TargetAttributes = {
+					E391D9FC1B01B1C5007762BF = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
 					E3AC17331A76CB0B00023D91 = {
 						CreatedOnToolsVersion = 6.1.1;
-					};
-					E3AC17451A76CB0B00023D91 = {
-						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = E3AC17331A76CB0B00023D91;
 					};
 				};
 			};
@@ -181,12 +199,22 @@
 			projectRoot = "";
 			targets = (
 				E3AC17331A76CB0B00023D91 /* IntCalculatorMikeEllard */,
-				E3AC17451A76CB0B00023D91 /* IntCalculatorMikeEllardTests */,
+				E391D9FC1B01B1C5007762BF /* ICiOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		E391D9FB1B01B1C5007762BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E391DA071B01B1C5007762BF /* Main.storyboard in Resources */,
+				E391DA0C1B01B1C5007762BF /* LaunchScreen.xib in Resources */,
+				E391DA091B01B1C5007762BF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E3AC17321A76CB0B00023D91 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -196,45 +224,50 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E3AC17441A76CB0B00023D91 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		E391D9F91B01B1C5007762BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E391DA201B01B2B9007762BF /* Model.swift in Sources */,
+				E32B28171B4F73D4006BA87A /* XKit-iOS.swift in Sources */,
+				E391DA041B01B1C5007762BF /* ViewController.swift in Sources */,
+				E391DA021B01B1C5007762BF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E3AC17301A76CB0B00023D91 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E36A29DC1A78113000B85188 /* Model.swift in Sources */,
+				E32B28151B4F7170006BA87A /* XKit-OSX.swift in Sources */,
 				E3AC173C1A76CB0B00023D91 /* ViewController.swift in Sources */,
 				E3AC173A1A76CB0B00023D91 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E3AC17421A76CB0B00023D91 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E3AC174D1A76CB0B00023D91 /* IntCalculatorMikeEllardTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		E3AC17481A76CB0B00023D91 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E3AC17331A76CB0B00023D91 /* IntCalculatorMikeEllard */;
-			targetProxy = E3AC17471A76CB0B00023D91 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
+		E391DA051B01B1C5007762BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E391DA061B01B1C5007762BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E391DA0A1B01B1C5007762BF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E391DA0B1B01B1C5007762BF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
 		E3AC173F1A76CB0B00023D91 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -246,6 +279,43 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		E391DA191B01B1C5007762BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ICiOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E391DA1A1B01B1C5007762BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = ICiOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		E3AC174E1A76CB0B00023D91 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -345,45 +415,18 @@
 			};
 			name = Release;
 		};
-		E3AC17541A76CB0B00023D91 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = IntCalculatorMikeEllardTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IntCalculatorMikeEllard.app/Contents/MacOS/IntCalculatorMikeEllard";
-			};
-			name = Debug;
-		};
-		E3AC17551A76CB0B00023D91 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = IntCalculatorMikeEllardTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IntCalculatorMikeEllard.app/Contents/MacOS/IntCalculatorMikeEllard";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		E391DA1D1B01B1C5007762BF /* Build configuration list for PBXNativeTarget "ICiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E391DA191B01B1C5007762BF /* Debug */,
+				E391DA1A1B01B1C5007762BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		E3AC172F1A76CB0B00023D91 /* Build configuration list for PBXProject "IntCalculatorMikeEllard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -398,15 +441,6 @@
 			buildConfigurations = (
 				E3AC17511A76CB0B00023D91 /* Debug */,
 				E3AC17521A76CB0B00023D91 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E3AC17531A76CB0B00023D91 /* Build configuration list for PBXNativeTarget "IntCalculatorMikeEllardTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E3AC17541A76CB0B00023D91 /* Debug */,
-				E3AC17551A76CB0B00023D91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
