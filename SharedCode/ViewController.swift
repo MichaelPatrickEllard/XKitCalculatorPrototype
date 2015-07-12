@@ -52,7 +52,7 @@ class ViewController: XViewController {
                     result = add(storedRegister!, displayRegister!)
                 case "-":
                     result = subtract(storedRegister!, displayRegister!)
-                case "*":
+                case "X":
                     result = multiply(storedRegister!, displayRegister!)
                 case "/":
                     result = divide(storedRegister!, displayRegister!)
