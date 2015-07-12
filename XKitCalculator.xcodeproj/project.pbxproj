@@ -31,6 +31,21 @@
 		E391DA091B01B1C5007762BF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E391DA081B01B1C5007762BF /* Images.xcassets */; };
 		E391DA0C1B01B1C5007762BF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E391DA0A1B01B1C5007762BF /* LaunchScreen.xib */; };
 		E391DA201B01B2B9007762BF /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36A29DB1A78113000B85188 /* Model.swift */; };
+		E3A0C3B11B52FC1D00CC681C /* OSxback.png in Resources */ = {isa = PBXBuildFile; fileRef = E3A0C3AB1B52FC1D00CC681C /* OSxback.png */; };
+		E3A0C3B21B52FC1D00CC681C /* OSxback@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3A0C3AC1B52FC1D00CC681C /* OSxback@2x.png */; };
+		E3A0C3B31B52FC1D00CC681C /* OSXbutton-long.png in Resources */ = {isa = PBXBuildFile; fileRef = E3A0C3AD1B52FC1D00CC681C /* OSXbutton-long.png */; };
+		E3A0C3B41B52FC1D00CC681C /* OSXbutton-long@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3A0C3AE1B52FC1D00CC681C /* OSXbutton-long@2x.png */; };
+		E3A0C3B51B52FC1D00CC681C /* OSXbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = E3A0C3AF1B52FC1D00CC681C /* OSXbutton.png */; };
+		E3A0C3B61B52FC1D00CC681C /* OSXbutton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3A0C3B01B52FC1D00CC681C /* OSXbutton@2x.png */; };
+		E3A0C3C81B52FC5200CC681C /* iOSback-568h@2x@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3A0C3C31B52FC5200CC681C /* iOSback-568h@2x@2x.png */; };
+		E3A0C3C91B52FC5200CC681C /* iOSback-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3A0C3C41B52FC5200CC681C /* iOSback-667h@2x.png */; };
+		E3A0C3CA1B52FC5200CC681C /* iOSback-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3A0C3C51B52FC5200CC681C /* iOSback-736h@3x.png */; };
+		E3A0C3CB1B52FC5200CC681C /* iOSbutton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3A0C3C61B52FC5200CC681C /* iOSbutton@2x.png */; };
+		E3A0C3CC1B52FC5200CC681C /* iOSbutton@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3A0C3C71B52FC5200CC681C /* iOSbutton@3x.png */; };
+		E3A0C3CD1B52FF5200CC681C /* OSXbutton-long.png in Resources */ = {isa = PBXBuildFile; fileRef = E3A0C3AD1B52FC1D00CC681C /* OSXbutton-long.png */; };
+		E3A0C3CE1B52FF5200CC681C /* OSXbutton-long@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3A0C3AE1B52FC1D00CC681C /* OSXbutton-long@2x.png */; };
+		E3A0C3CF1B52FF5200CC681C /* OSXbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = E3A0C3AF1B52FC1D00CC681C /* OSXbutton.png */; };
+		E3A0C3D01B52FF5200CC681C /* OSXbutton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3A0C3B01B52FC1D00CC681C /* OSXbutton@2x.png */; };
 		E3AC173A1A76CB0B00023D91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AC17391A76CB0B00023D91 /* AppDelegate.swift */; };
 		E3AC173C1A76CB0B00023D91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AC173B1A76CB0B00023D91 /* ViewController.swift */; };
 		E3AC173E1A76CB0B00023D91 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3AC173D1A76CB0B00023D91 /* Images.xcassets */; };
@@ -65,6 +80,17 @@
 		E391DA061B01B1C5007762BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E391DA081B01B1C5007762BF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E391DA0B1B01B1C5007762BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E3A0C3AB1B52FC1D00CC681C /* OSxback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OSxback.png; sourceTree = "<group>"; };
+		E3A0C3AC1B52FC1D00CC681C /* OSxback@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "OSxback@2x.png"; sourceTree = "<group>"; };
+		E3A0C3AD1B52FC1D00CC681C /* OSXbutton-long.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "OSXbutton-long.png"; sourceTree = "<group>"; };
+		E3A0C3AE1B52FC1D00CC681C /* OSXbutton-long@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "OSXbutton-long@2x.png"; sourceTree = "<group>"; };
+		E3A0C3AF1B52FC1D00CC681C /* OSXbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OSXbutton.png; sourceTree = "<group>"; };
+		E3A0C3B01B52FC1D00CC681C /* OSXbutton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "OSXbutton@2x.png"; sourceTree = "<group>"; };
+		E3A0C3C31B52FC5200CC681C /* iOSback-568h@2x@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iOSback-568h@2x@2x.png"; sourceTree = "<group>"; };
+		E3A0C3C41B52FC5200CC681C /* iOSback-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iOSback-667h@2x.png"; sourceTree = "<group>"; };
+		E3A0C3C51B52FC5200CC681C /* iOSback-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iOSback-736h@3x.png"; sourceTree = "<group>"; };
+		E3A0C3C61B52FC5200CC681C /* iOSbutton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iOSbutton@2x.png"; sourceTree = "<group>"; };
+		E3A0C3C71B52FC5200CC681C /* iOSbutton@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iOSbutton@3x.png"; sourceTree = "<group>"; };
 		E3AC17341A76CB0B00023D91 /* OSXCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OSXCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3AC17381A76CB0B00023D91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E3AC17391A76CB0B00023D91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +130,7 @@
 		E391D9FE1B01B1C5007762BF /* iOSCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				E3A0C3C21B52FC5200CC681C /* Images */,
 				E32B28161B4F73D4006BA87A /* XKit-iOS.swift */,
 				E391DA011B01B1C5007762BF /* AppDelegate.swift */,
 				E391DA051B01B1C5007762BF /* Main.storyboard */,
@@ -120,6 +147,31 @@
 				E391DA001B01B1C5007762BF /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E3A0C3AA1B52FC1D00CC681C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				E3A0C3AB1B52FC1D00CC681C /* OSxback.png */,
+				E3A0C3AC1B52FC1D00CC681C /* OSxback@2x.png */,
+				E3A0C3AD1B52FC1D00CC681C /* OSXbutton-long.png */,
+				E3A0C3AE1B52FC1D00CC681C /* OSXbutton-long@2x.png */,
+				E3A0C3AF1B52FC1D00CC681C /* OSXbutton.png */,
+				E3A0C3B01B52FC1D00CC681C /* OSXbutton@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		E3A0C3C21B52FC5200CC681C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				E3A0C3C31B52FC5200CC681C /* iOSback-568h@2x@2x.png */,
+				E3A0C3C41B52FC5200CC681C /* iOSback-667h@2x.png */,
+				E3A0C3C51B52FC5200CC681C /* iOSback-736h@3x.png */,
+				E3A0C3C61B52FC5200CC681C /* iOSbutton@2x.png */,
+				E3A0C3C71B52FC5200CC681C /* iOSbutton@3x.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 		E3AC172B1A76CB0B00023D91 = {
@@ -149,6 +201,7 @@
 				E3AC17391A76CB0B00023D91 /* AppDelegate.swift */,
 				E3AC173D1A76CB0B00023D91 /* Images.xcassets */,
 				E3AC173F1A76CB0B00023D91 /* Main.storyboard */,
+				E3A0C3AA1B52FC1D00CC681C /* Images */,
 				E3AC17371A76CB0B00023D91 /* Supporting Files */,
 			);
 			path = OSXCalculator;
@@ -245,8 +298,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				E391DA071B01B1C5007762BF /* Main.storyboard in Resources */,
+				E3A0C3CF1B52FF5200CC681C /* OSXbutton.png in Resources */,
+				E3A0C3C81B52FC5200CC681C /* iOSback-568h@2x@2x.png in Resources */,
+				E3A0C3D01B52FF5200CC681C /* OSXbutton@2x.png in Resources */,
+				E3A0C3CA1B52FC5200CC681C /* iOSback-736h@3x.png in Resources */,
+				E3A0C3C91B52FC5200CC681C /* iOSback-667h@2x.png in Resources */,
+				E3A0C3CD1B52FF5200CC681C /* OSXbutton-long.png in Resources */,
 				E391DA0C1B01B1C5007762BF /* LaunchScreen.xib in Resources */,
+				E3A0C3CC1B52FC5200CC681C /* iOSbutton@3x.png in Resources */,
+				E3A0C3CB1B52FC5200CC681C /* iOSbutton@2x.png in Resources */,
 				E391DA091B01B1C5007762BF /* Images.xcassets in Resources */,
+				E3A0C3CE1B52FF5200CC681C /* OSXbutton-long@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,7 +317,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3AC173E1A76CB0B00023D91 /* Images.xcassets in Resources */,
+				E3A0C3B41B52FC1D00CC681C /* OSXbutton-long@2x.png in Resources */,
+				E3A0C3B51B52FC1D00CC681C /* OSXbutton.png in Resources */,
+				E3A0C3B61B52FC1D00CC681C /* OSXbutton@2x.png in Resources */,
+				E3A0C3B31B52FC1D00CC681C /* OSXbutton-long.png in Resources */,
 				E3AC17411A76CB0B00023D91 /* Main.storyboard in Resources */,
+				E3A0C3B21B52FC1D00CC681C /* OSxback@2x.png in Resources */,
+				E3A0C3B11B52FC1D00CC681C /* OSxback.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

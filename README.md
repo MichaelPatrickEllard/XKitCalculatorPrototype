@@ -14,4 +14,6 @@ Findings:
 
 Development team:
 
-- Michael Patrick Ellard, concept and code
+- Michael Patrick Ellard, concept and code.
+
+Many thanks to Miguel Elasmar, who helped improve the iOS visual design significantly.
