@@ -55,6 +55,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E31E3D6E1B52E50800E4B6D2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E32B28141B4F7170006BA87A /* XKit-OSX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XKit-OSX.swift"; sourceTree = "<group>"; };
 		E32B28161B4F73D4006BA87A /* XKit-iOS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XKit-iOS.swift"; sourceTree = "<group>"; };
 		E36A29DB1A78113000B85188 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
@@ -124,6 +125,7 @@
 		E3AC172B1A76CB0B00023D91 = {
 			isa = PBXGroup;
 			children = (
+				E31E3D6E1B52E50800E4B6D2 /* README.md */,
 				E32B28181B4F75EA006BA87A /* iOS-OSX Shared Code */,
 				E3AC17361A76CB0B00023D91 /* OSXCalculator */,
 				E391D9FE1B01B1C5007762BF /* iOSCalculator */,
